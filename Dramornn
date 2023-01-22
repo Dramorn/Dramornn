@@ -81,7 +81,9 @@ end)
 
 local Tab = Window:NewTab("Misc")
 
-local Section = Tab:NewSection("Admins")
+
+local Section = Tab:NewSection("admins")
+
 
 Section:NewButton("inf yield", "execute infinite yield", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -100,6 +102,21 @@ local Section = Tab:NewSection("Other")
 Section:NewButton("btools", "get buidling tools (client sided(only visible for you))", function()
 loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
 end)
+
+Section:NewButton("serverhop", "teleport you to a random server", function()
+local Http = game:GetService("HttpService") local TPS = game:GetService("TeleportService") local Api = "https://games.roblox.com/v1/games/" local _place = game.PlaceId local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100" function ListServers(cursor) local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or "")) return Http:JSONDecode(Raw) end local Server, Next; repeat local Servers = ListServers(Next) Server = Servers.data[1] Next = Servers.nextPageCursor until Server TPS:TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
+end)
+
+Section:NewButton("rejoin", "rejoin", function()
+    local ts = game:GetService("TeleportService")
+
+local p = game:GetService("Players").LocalPlayer
+
+ 
+
+ts:Teleport(game.PlaceId, p)
+end)
+
 
 local Tab = Window:NewTab("Player")
 
