@@ -1,0 +1,376 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("starving artist", "DarkTheme")
+
+
+local Tab = Window:NewTab("Main")
+
+local Section = Tab:NewSection("autofarm")
+
+Section:NewButton("autofarm (read info)", "its a bit buggy but works", function()
+    while true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-202.493073, 126.490303, -8.73390865, -0.999970496, 9.04155257e-08, -0.00768389041, 9.06958775e-08, 1, -3.61376777e-08, 0.00768389041, -3.68335087e-08, -0.999970496)
+wait(0.2)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(280.628143, 121.599136, -67.1027832, 0.11756365, -5.99036341e-08, 0.993065357, -2.99430383e-08, 1, 6.38667359e-08, -0.993065357, -3.72438009e-08, 0.11756365)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(304.908112, 120.408249, -88.6388779, 0.997173309, -2.65854592e-08, -0.0751354694, 1.85970261e-08, 1, -1.07020036e-07, 0.0751354694, 1.05320225e-07, 0.997173309)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(349.609192, 120.408241, -87.5658493, 0.996696115, 2.44916865e-09, -0.0812211707, -2.27587837e-09, 1, 2.22613639e-09, 0.0812211707, -2.03393191e-09, 0.996696115)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(394.536469, 121.290825, -87.6747742, 0.998220801, 6.6147301e-09, 0.0596254878, -5.40660183e-09, 1, -2.0423272e-08, -0.0596254878, 2.00645651e-08, 0.998220801)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(434.203918, 120.408257, -88.471199, 0.999157131, 7.31107574e-09, -0.0410489663, -7.49829976e-09, 1, -4.4070334e-09, 0.0410489663, 4.71111639e-09, 0.999157131)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(455.340515, 120.408257, -63.6836319, 0.340878576, -2.3342027e-08, -0.940107346, 3.55085561e-08, 1, -1.19538708e-08, 0.940107346, -2.9307035e-08, 0.340878576)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(452.755249, 121.057281, 49.0253868, 0.108083718, -7.96696611e-08, -0.994141817, 5.86388325e-08, 1, -7.37638857e-08, 0.994141817, -5.03226403e-08, 0.108083718)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(435.527466, 120.408257, 66.4640198, -0.996926725, 4.58166021e-08, -0.07833983, 5.19400665e-08, 1, -7.61277548e-08, 0.07833983, -7.99627671e-08, -0.996926725)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(390.345032, 120.408249, 69.9868927, -0.997748315, 2.49342733e-08, 0.0670693591, 2.32565807e-08, 1, -2.57950656e-08, -0.0670693591, -2.41771794e-08, -0.997748315)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(345.980652, 121.463783, 69.462944, -0.959147274, 3.6186897e-08, 0.282907248, 9.56078239e-09, 1, -9.54966666e-08, -0.282907248, -8.88905589e-08, -0.959147274)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(303.30191, 120.408234, 72.2393112, -0.988554776, -1.8789267e-08, -0.150862455, -2.19313865e-08, 1, 1.91638758e-08, 0.150862455, 2.22531646e-08, -0.988554776)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(282.580872, 120.408234, 41.8601875, 0.0546839572, 2.24451711e-08, 0.998503685, -1.3646769e-08, 1, -2.17314273e-08, -0.998503685, -1.24379893e-08, 0.0546839572)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+end
+end)
+
+Section:NewButton("stop (read info)", "it will rejoin", function()
+    local ts = game:GetService("TeleportService")
+
+local p = game:GetService("Players").LocalPlayer
+
+ 
+
+ts:Teleport(game.PlaceId, p)
+end)
+
+local Section = Tab:NewSection("art generator")
+
+Section:NewButton("execute", "this script was made by Jeux45", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeux45/Starving-Artist-script/main/Script", true))()
+end)
+
+
+local Tab = Window:NewTab("Misc")
+
+local Section = Tab:NewSection("Admins")
+
+Section:NewButton("inf yield", "execute infinite yield", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Section:NewButton("cmd x", "execute cmd x", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+Section:NewButton("fates-admin", "execute fates-admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+end)
+
+local Section = Tab:NewSection("Other")
+
+Section:NewButton("btools", "get buidling tools (client sided(only visible for you))", function()
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+end)
+
+local Tab = Window:NewTab("Player")
+
+local Section = Tab:NewSection("Player")
+
+Section:NewSlider("Walkspeed", "Changes walkspeed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewButton("fly", "execute fly script made by 7alexv7é", function()
+   -- Bring to you by 7alexv7
+-- Enjoy the script!
+ 
+-- Instances:
+ 
+local FlyGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+ 
+--Properties:
+ 
+FlyGui.Name = "FlyGui"
+FlyGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ 
+Frame.Parent = FlyGui
+Frame.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0685602352, 0, 0.168769717, 0)
+Frame.Size = UDim2.new(0.264544547, 0, 0.100000024, 0)
+ 
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.06324628, 0, 0.400667697, 0)
+TextButton.Size = UDim2.new(0.871157169, 0, 0.495614201, 0)
+TextButton.Font = Enum.Font.ArialBold
+TextButton.Text = "Fly"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextStrokeTransparency = 0.000
+TextButton.TextWrapped = true
+ 
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Size = UDim2.new(0, 86, 0, 24)
+TextLabel.Font = Enum.Font.Oswald
+TextLabel.Text = "Made by 7alexv7"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+ 
+-- Scripts:
+ 
+local function NQWSTGE_fake_script() -- Frame.Fly 
+    local script = Instance.new('LocalScript', Frame)
+ 
+    local plr = script.Parent.Parent.Parent.Parent
+    repeat wait() until plr and plr.Character and plr.Character:findFirstChild("HumanoidRootPart") and plr.Character:findFirstChild("Humanoid") 
+    local mouse = game.Players.LocalPlayer:GetMouse()  
+    repeat wait() until mouse
+    
+    local torso = plr.Character.HumanoidRootPart 
+    local flying = false
+    local deb = true 
+    local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+    local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+    local maxspeed = 1000 
+    local speed = 50
+    function Fly() 
+    local bg = Instance.new("BodyGyro", torso) 
+    bg.P = 9e4 
+    bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+    bg.cframe = torso.CFrame 
+    local bv = Instance.new("BodyVelocity", torso) 
+    bv.velocity = Vector3.new(0,0.1,0) 
+    bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+    repeat wait() 
+    plr.Character.Humanoid.PlatformStand = true 
+    if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+    speed = speed+.5+(speed/maxspeed) 
+    if speed > maxspeed then 
+    speed = maxspeed 
+    end 
+    elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+    speed = speed-1 
+    if speed < 0 then 
+                    speed = 0
+                else
+                    speed = 50
+    end 
+    end 
+    if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+    bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+    lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+    elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+    bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+    else 
+    bv.velocity = Vector3.new(0,0.1,0) 
+    end 
+    bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+    until not flying 
+    ctrl = {f = 0, b = 0, l = 0, r = 0} 
+    lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+        
+    bg:Destroy() 
+    bv:Destroy() 
+        plr.Character.Humanoid.PlatformStand = false 
+        speed = 50
+    end 
+    
+    mouse.KeyDown:connect(function(key) 
+    if key:lower() == "e" then 
+            if flying then flying = false 
+                speed = 50
+    else 
+    flying = true 
+    Fly()
+    
+    end 
+    elseif key:lower() == "w" then 
+    ctrl.f = 1 
+    elseif key:lower() == "s" then 
+    ctrl.b = -1 
+    elseif key:lower() == "a" then 
+    ctrl.l = -1 
+    elseif key:lower() == "d" then 
+    ctrl.r = 1 
+    end 
+    end) 
+    mouse.KeyUp:connect(function(key) 
+    if key:lower() == "w" then 
+    ctrl.f = 0 
+    elseif key:lower() == "s" then 
+    ctrl.b = 0 
+    elseif key:lower() == "a" then 
+    ctrl.l = 0 
+    elseif key:lower() == "d" then 
+    ctrl.r = 0 
+    end 
+    end)
+    
+    plr.Character.Humanoid.StateChanged:Connect(function(o,n)
+        if n == Enum.HumanoidStateType.Running then
+            ctrl.f = 1
+        else
+            ctrl.f = 0
+        end
+    
+    end)
+    script.Parent.TextButton.MouseButton1Click:Connect(function()
+        if flying then
+            flying = false
+            speed = 50
+        else
+            flying = true
+            Fly()
+        end
+    end)
+    
+end
+coroutine.wrap(NQWSTGE_fake_script)()
+local function RAQA_fake_script() -- Frame.Buttons 
+    local script = Instance.new('LocalScript', Frame)
+ 
+    local Trigger = script.Parent.MiniTrext
+    local IsMini = false
+    function CreateTween(Instance,Style,Direction,Time,table,RepeatCount,CanRepeat,Delay)
+        local ts = game:GetService("TweenService")
+        local TweenInfo = TweenInfo.new(Time,Style,Direction,RepeatCount,CanRepeat,Delay)
+        local Tween = ts:Create(Instance,TweenInfo,table)
+        repeat wait() until Tween ~= nil
+        return Tween
+        
+    end
+    Trigger.MouseButton1Click:Connect(function()
+        if IsMini then
+            CreateTween(script.Parent,Enum.EasingStyle.Quad,Enum.EasingDirection.Out,0.5,{Size = UDim2.new(0.265, 0,0.1, 0)},0,false,0.1):Play()
+            IsMini = false
+            Trigger.Text = "-"
+        else
+            CreateTween(script.Parent,Enum.EasingStyle.Quad,Enum.EasingDirection.Out,0.5,{Size = UDim2.new(0.265, 0,0.042, 0)},0,false,0.1):Play()
+            IsMini = true
+            Trigger.Text = "+"
+        end
+    end)
+    script.Parent.Delete.MouseButton1Click:Connect(function()
+        script.Parent.Parent:Destroy()
+    end)
+end
+coroutine.wrap(RAQA_fake_script)()
+local function TKVUMP_fake_script() -- Frame.Drag Gui 
+    local script = Instance.new('LocalScript', Frame)
+ 
+    local UserInputService = game:GetService("UserInputService")
+    
+    local gui = script.Parent
+    
+    local dragging
+    local dragInput
+    local dragStart
+    local startPos
+    
+    local function update(input)
+        local delta = input.Position - dragStart
+        gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+    
+    gui.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = gui.Position
+            
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
+    
+    gui.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+    
+    UserInputService.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            update(input)
+        end
+    end)
+end
+coroutine.wrap(TKVUMP_fake_script)()
+end)
+
+local Tab = Window:NewTab("Teleport")
+
+local Section = Tab:NewSection("Teleport")
+
+Section:NewButton("Museum", "teleport", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(349.455963, 124.670845, -9.02852631, -0.011784005, 7.1769982e-08, -0.999930561, -7.23858307e-08, 1, 7.26280192e-08, 0.999930561, 7.32366559e-08, -0.011784005)
+end)
+
+Section:NewButton("Spawn", "teleport", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(49.9924622, 118.430145, -7.71559095, -0.136864185, -5.58731941e-08, 0.990589797, -7.30948102e-08, 1, 4.63048693e-08, -0.990589797, -6.60694965e-08, -0.136864185)
+end)
+
+Section:NewButton("Christmas", "teleport", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-170.083923, 120.854805, -9.13378334, 0.0404885896, 1.92123366e-08, 0.999180019, 6.66950868e-08, 1, -2.19307097e-08, -0.999180019, 6.75283403e-08, 0.0404885896)
+end)
+
+Section:NewButton("Houses", "teleport", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(293.180603, 120.818382, -10.5077133, 8.08163313e-05, 1.76462862e-08, -1, -2.51861074e-08, 1, 1.76442505e-08, 1, 2.5184681e-08, 8.08163313e-05)
+end)
+
+
+local Tab = Window:NewTab("Settings")
+
+local Section = Tab:NewSection("Settings")
+
+Section:NewKeybind("Open/Close Gui", "KeybindInfo", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
+
+local Tab = Window:NewTab("Credits")
+
+local Section = Tab:NewSection("The script was made by Dramorm")
+
+local Section = Tab:NewSection("discord.gg/kcCWncA3")
