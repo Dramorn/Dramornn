@@ -58,7 +58,7 @@ game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,ga
 wait(0.1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(282.580872, 120.408234, 41.8601875, 0.0546839572, 2.24451711e-08, 0.998503685, -1.3646769e-08, 1, -2.17314273e-08, -0.998503685, -1.24379893e-08, 0.0546839572)
 game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
-wait(0.1)
+wait(0.5)
 end
 end)
 
