@@ -56,7 +56,8 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(303.3019
 wait(0.1)
 game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
 wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(282.580872, 120.408234, 41.8601875, 0.0546839572, 2.24451711e-08, 0.998503685, -1.3646769e-08, 1, -2.17314273e-08, -0.998503685, -1.24379893e-08, 0.0546839572)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(283.306152, 120.490288, 43.9590225, 0.18340233, 7.4668705e-08, 0.983037949, -1.4281369e-08, 1, -7.32926608e-08, -0.983037949, -5.97082384e-10, 0.18340233)
+wait(0.1)
 game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
 wait(0.5)
 end
@@ -160,5 +161,3 @@ end)
 local Tab = Window:NewTab("Credits")
 
 local Section = Tab:NewSection("The script was made by Dramorm")
-
-local Section = Tab:NewSection("discord.gg/kcCWncA3")
