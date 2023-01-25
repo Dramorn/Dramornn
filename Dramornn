@@ -1,52 +1,109 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("starving artist", "DarkTheme")
+--Made by : https://v3rmillion.net/member.php?action=profile&uid=507120
+--Go vouch release thread : https://v3rmillion.net/showthread.php?tid=1040650
+
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+
+local w = library:CreateWindow("Main") -- Creates the window
+
+local b = w:CreateFolder("Coin Autofarm") -- Creates the folder(U will put here your buttons,etc)
 
 
-local Tab = Window:NewTab("Main")
-
-local Section = Tab:NewSection("autofarm")
-
-Section:NewButton("autofarm (read info)", "its a bit buggy but works", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dramorn/autofarmv2/main/autofarmv2"))()
+b:Toggle("coin autofarm",function(bool)
+    Toggle = bool;
+end)
+spawn(function()
+     while wait() do
+            if Toggle then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-202.493073, 126.490303, -8.73390865, -0.999970496, 9.04155257e-08, -0.00768389041, 9.06958775e-08, 1, -3.61376777e-08, 0.00768389041, -3.68335087e-08, -0.999970496)
+wait(0.2)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(280.628143, 121.599136, -67.1027832, 0.11756365, -5.99036341e-08, 0.993065357, -2.99430383e-08, 1, 6.38667359e-08, -0.993065357, -3.72438009e-08, 0.11756365)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(304.908112, 120.408249, -88.6388779, 0.997173309, -2.65854592e-08, -0.0751354694, 1.85970261e-08, 1, -1.07020036e-07, 0.0751354694, 1.05320225e-07, 0.997173309)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(349.609192, 120.408241, -87.5658493, 0.996696115, 2.44916865e-09, -0.0812211707, -2.27587837e-09, 1, 2.22613639e-09, 0.0812211707, -2.03393191e-09, 0.996696115)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(394.536469, 121.290825, -87.6747742, 0.998220801, 6.6147301e-09, 0.0596254878, -5.40660183e-09, 1, -2.0423272e-08, -0.0596254878, 2.00645651e-08, 0.998220801)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(434.203918, 120.408257, -88.471199, 0.999157131, 7.31107574e-09, -0.0410489663, -7.49829976e-09, 1, -4.4070334e-09, 0.0410489663, 4.71111639e-09, 0.999157131)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(455.340515, 120.408257, -63.6836319, 0.340878576, -2.3342027e-08, -0.940107346, 3.55085561e-08, 1, -1.19538708e-08, 0.940107346, -2.9307035e-08, 0.340878576)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(452.755249, 121.057281, 49.0253868, 0.108083718, -7.96696611e-08, -0.994141817, 5.86388325e-08, 1, -7.37638857e-08, 0.994141817, -5.03226403e-08, 0.108083718)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(435.527466, 120.408257, 66.4640198, -0.996926725, 4.58166021e-08, -0.07833983, 5.19400665e-08, 1, -7.61277548e-08, 0.07833983, -7.99627671e-08, -0.996926725)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(390.345032, 120.408249, 69.9868927, -0.997748315, 2.49342733e-08, 0.0670693591, 2.32565807e-08, 1, -2.57950656e-08, -0.0670693591, -2.41771794e-08, -0.997748315)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(345.980652, 121.463783, 69.462944, -0.959147274, 3.6186897e-08, 0.282907248, 9.56078239e-09, 1, -9.54966666e-08, -0.282907248, -8.88905589e-08, -0.959147274)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(303.30191, 120.408234, 72.2393112, -0.988554776, -1.8789267e-08, -0.150862455, -2.19313865e-08, 1, 1.91638758e-08, 0.150862455, 2.22531646e-08, -0.988554776)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(282.580872, 120.408234, 41.8601875, 0.0546839572, 2.24451711e-08, 0.998503685, -1.3646769e-08, 1, -2.17314273e-08, -0.998503685, -1.24379893e-08, 0.0546839572)
+wait(0.1)
+game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.E,false,game)
+wait(0.5)
+            end
+end
 end)
 
 
-local Section = Tab:NewSection("art generator")
+local b = w:CreateFolder("Art Generator")
 
-Section:NewButton("execute", "this script was made by Jeux45", function()
+b:Button("Button",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeux45/Starving-Artist-script/main/Script", true))()
 end)
 
 
-local Tab = Window:NewTab("Misc")
+local w = library:CreateWindow("Misc")
 
 
-local Section = Tab:NewSection("admins")
+local b = w:CreateFolder("Admins")
 
 
-Section:NewButton("inf yield", "execute infinite yield", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
-
-Section:NewButton("cmd x", "execute cmd x", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
-end)
-
-Section:NewButton("fates-admin", "execute fates-admin", function()
+b:Button("fates-admin",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
 end)
 
-local Section = Tab:NewSection("Other")
-
-Section:NewButton("btools", "get buidling tools (client sided(only visible for you))", function()
-loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+b:Button("cmd x",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 end)
 
-Section:NewButton("serverhop", "teleport you to a random server", function()
-local Http = game:GetService("HttpService") local TPS = game:GetService("TeleportService") local Api = "https://games.roblox.com/v1/games/" local _place = game.PlaceId local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100" function ListServers(cursor) local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or "")) return Http:JSONDecode(Raw) end local Server, Next; repeat local Servers = ListServers(Next) Server = Servers.data[1] Next = Servers.nextPageCursor until Server TPS:TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
+local b = w:CreateFolder("Useful")
+
+
+b:Button("Btools",function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
 end)
 
-Section:NewButton("rejoin", "rejoin", function()
+b:Button("Serverhop",function()
+    local Http = game:GetService("HttpService") local TPS = game:GetService("TeleportService") local Api = "https://games.roblox.com/v1/games/" local _place = game.PlaceId local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100" function ListServers(cursor) local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or "")) return Http:JSONDecode(Raw) end local Server, Next; repeat local Servers = ListServers(Next) Server = Servers.data[1] Next = Servers.nextPageCursor until Server TPS:TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
+end)
+
+b:Button("Rejoin",function()
     local ts = game:GetService("TeleportService")
 
 local p = game:GetService("Players").LocalPlayer
@@ -57,46 +114,38 @@ ts:Teleport(game.PlaceId, p)
 end)
 
 
-local Tab = Window:NewTab("Player")
+local w = library:CreateWindow("Teleport")
 
-local Section = Tab:NewSection("Player")
-
-Section:NewSlider("Walkspeed", "Changes walkspeed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-end)
+local b = w:CreateFolder("Teleport")
 
 
-local Tab = Window:NewTab("Teleport")
-
-local Section = Tab:NewSection("Teleport")
-
-Section:NewButton("Museum", "teleport", function()
+b:Button("Museum",function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(349.455963, 124.670845, -9.02852631, -0.011784005, 7.1769982e-08, -0.999930561, -7.23858307e-08, 1, 7.26280192e-08, 0.999930561, 7.32366559e-08, -0.011784005)
 end)
 
-Section:NewButton("Spawn", "teleport", function()
+b:Button("Spawn",function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(49.9924622, 118.430145, -7.71559095, -0.136864185, -5.58731941e-08, 0.990589797, -7.30948102e-08, 1, 4.63048693e-08, -0.990589797, -6.60694965e-08, -0.136864185)
 end)
 
-Section:NewButton("Christmas", "teleport", function()
+b:Button("Christmas",function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-170.083923, 120.854805, -9.13378334, 0.0404885896, 1.92123366e-08, 0.999180019, 6.66950868e-08, 1, -2.19307097e-08, -0.999180019, 6.75283403e-08, 0.0404885896)
 end)
 
-Section:NewButton("Houses", "teleport", function()
+b:Button("Houses",function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(293.180603, 120.818382, -10.5077133, 8.08163313e-05, 1.76462862e-08, -1, -2.51861074e-08, 1, 1.76442505e-08, 1, 2.5184681e-08, 8.08163313e-05)
 end)
 
 
-local Tab = Window:NewTab("Settings")
+local w = library:CreateWindow("Settings")
 
-local Section = Tab:NewSection("Settings")
-
-Section:NewKeybind("Open/Close Gui", "KeybindInfo", Enum.KeyCode.F, function()
-	Library:ToggleUI()
-end)
+local b = w:CreateFolder("Settings")
 
 
-local Tab = Window:NewTab("Credits")
+b:DestroyGui()
 
-local Section = Tab:NewSection("The script was made by Dramorm")
 
+local w = library:CreateWindow("Credits")
+
+local b = w:CreateFolder("Mde by Dramorm")
+
+local b = w:CreateFolder("discord.gg/kcCWncA3")
